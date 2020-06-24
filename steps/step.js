@@ -154,11 +154,11 @@ When("we click on yes delete article", async function () {
 Then(
   "we should not see the delete confirmation screen anymore",
   async function () {
-    const dangerConfirmPopUp = await this.driver.findElements(
-      By.className("sweet-alert")
-    );
-    const isDangerConfirmPopUpEmpty = dangerConfirmPopUp.length === 0;
-    assert.equal(isDangerConfirmPopUpEmpty, true);
+    try {
+      await this.driver.findElement(By.className("sweet-alert")).isDisplayed();
+    } catch (err) {
+      console.log("No Such element.");
+    }
   }
 );
 
