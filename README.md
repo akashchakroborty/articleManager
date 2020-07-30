@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Article Manager
 
-## Available Scripts
+> Article Manager is a Single page application that lets users Create, Read, Edit and Delete Articles. The Design is inspired from Medium.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**You’ll need to have Node >= 6 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
 
-### `npm test`
+### Installing
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Steps to get a development env running:
 
-### `npm run build`
+- Make a local copy doing:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/akashchakroborty/articleManager.git
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Run npm install:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+- Run start:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run Json Server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run jsonServer
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Then open http://localhost:3000/ to see the app.
 
-## Learn More
+The application list's all the Articles on the initial page (Home page). On clicking on any article image or body section you will be redirected to Article Read Page and can Read the article. In order to create a new article click on Create Article button. You can also Edit or Delete articles.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running the tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the automated tests please run
 
-### Code Splitting
+```
+npm test
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+To run BDD test please run
+```
+npm run cucumber
+```
 
-### Analyzing the Bundle Size
+## Technologies used
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [React](https://github.com/facebook/create-react-app) - The web Library.
+- [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps.
+- [Redux-Saga](https://github.com/redux-saga/redux-saga) - To manage application side effects.
+- [axios](https://github.com/axios/axios) - As HTTP client.
+- [JavaScript (JS)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming language.
+- [Jest](https://jestjs.io/en/) - Testing Framework.
+- [Enzyme](https://github.com/airbnb/enzyme) - To test React components.
+- [Styled-Components](https://github.com/styled-components/styled-components) - CSS in JS to style components.
+- [Reselect](https://github.com/reduxjs/reselect) - Selector library for Redux.
+- [Cucumber](https://github.com/cucumber/cucumber-js) - BDD testing library.
 
-### Making a Progressive Web App
+## Authors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **Akash Chakroborty** - [akashchakroborty](https://github.com/akashchakroborty)
