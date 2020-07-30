@@ -6,7 +6,9 @@
 
 ![49wvy9](https://user-images.githubusercontent.com/22369205/88949513-f8e42600-d2b0-11ea-9b7c-950e4ac2717f.gif)
 ![49wwv6](https://user-images.githubusercontent.com/22369205/88949713-3cd72b00-d2b1-11ea-8b26-68519b0d2992.gif)
-
+![49wxa8](https://user-images.githubusercontent.com/22369205/88950058-ba02a000-d2b1-11ea-9f11-29e7236e3461.gif)
+![49wxpu](https://user-images.githubusercontent.com/22369205/88950408-3ac19c00-d2b2-11ea-8bfc-a18045d3f370.gif)
+![49wxzf](https://user-images.githubusercontent.com/22369205/88950599-7ceadd80-d2b2-11ea-8ceb-98210bd894e3.gif)
 
 ### Prerequisites
 
